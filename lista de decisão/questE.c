@@ -17,7 +17,7 @@ double resultado = pow ( num1,3);
 else {
 double resultado = sqrt ( num2);
 printf( "%.2f",resultado);
-
+}
 
 return 0;
 

@@ -34,11 +34,5 @@ if ( numero == 1) {
 } else { 
     printf("nao existe mes com esse numero");
 }
-
-
-
-
-
-
     return 0;
 }
