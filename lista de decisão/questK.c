@@ -2,24 +2,25 @@
 
 int main () {
 
-float salario;
+float salario, inss;
 
 printf("digite seu salario: ");
 scanf("%f", &salario);
-
-
 
 if ( salario <= 600){
     printf("voce esta isento de imposto de renda");
 }
 else if ( salario > 600 && salario <= 1200){
-    printf("voce pagara 20%% de imposto de renda");
+inss = salario * 0.20;
+    printf("seu salario com o desconto do inss ficara:%.2f ",salario - inss);
 }
 else if ( salario > 1200 && salario <= 2000){
-    printf("voce pagara 25%% de imposto de renda");
+    inss = salario * 0.25;
+    printf("vseu salario com o desconto do inss ficara:%.2f ", salario - inss);
 }
 else {
-    printf("voce pagara 30%% de imposto de renda");
+    inss = salario * 0.30;
+    printf("seu salario com o desconto do inss ficara:%.2f ",  salario - inss);
 }
 
 
