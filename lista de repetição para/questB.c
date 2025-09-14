@@ -7,7 +7,7 @@ int valores [20];
 int soma = 0;
 
 for( i = 0; i < 20; i++){
-printf("digite o valor: %d\n", i+1);
+printf("digite um valor a ser somado: %d\n", i+1);
 scanf("%d", &valores[i]);
 
 
