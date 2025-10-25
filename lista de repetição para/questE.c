@@ -5,11 +5,11 @@ int main () {
     int i;
 
     for (i=1; i<=10; i++) {
-int numero;
+float numero;
 printf("digite o %d° numero: ", i);
-scanf ("%d", &numero);
+scanf ("%f", &numero);
 if (numero > 0) {
-    printf("o dobro do numero e: %d \n", numero*2);
+    printf("a metade do numero e: %.2f \n", numero/2);
 } else {
     printf(" por favor digite um numero positivo"); 
 }

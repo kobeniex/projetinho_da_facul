@@ -1,20 +1,22 @@
-# include <stdio.h.>
+#include <stdio.h>
 
-int main () {
+int main (){ 
 
-    int numero, i, fatorial = 1;
+int i;
+int valores [20];
+int soma = 0;
 
-    printf("Digite um numero inteiro positivo: ");
-    scanf("%d", &numero);
+for( i = 0; i < 20; i++){
+printf("digite um valor a ser somado: %d\n", i+1);
+scanf("%d", &valores[i]);
 
-    if (numero < 0) {
-        printf("Fatorial nao definido para numeros negativos.\n");
-    } else {
-        for (i = 1; i <= numero; i++) {
-            fatorial *= i;
-        }
-        printf("Fatorial de %d = %d\n", numero, fatorial);
-    }
+
+soma += valores[i];
+}
+
+printf("a soma dos valores e: %d\n", soma);
+
+
 
     return 0;
 }

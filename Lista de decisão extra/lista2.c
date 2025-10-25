@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
 
   int cp;
@@ -40,6 +39,5 @@ int main() {
     printf(" codigo invalido\n");
     break;
     }
- 
     return 0;
 }
